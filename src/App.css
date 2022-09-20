@@ -1,0 +1,94 @@
+.html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.input-container {
+    margin-bottom: .5rem;
+}
+
+
+
+.App {
+    text-align: center;
+}
+
+.users-1 {
+color: rgb(15, 126, 89);
+}
+
+.users-2 {
+    color:rgb(13, 92, 13);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content:space-evenly;
+   
+}
+
+li {
+    list-style: none;
+    border: .2rem solid gray;
+    padding: 2rem;
+    background-color:rgb(144, 214, 219);
+}
+
+.div-name,
+.div-last {
+    display: inline-block;
+    padding-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+.div-email,
+.div-pass,
+.div-birth {
+    margin-bottom: .5rem;
+}
+
+.btn-edit {
+    margin-top: .5rem;
+    margin-right: 2rem;
+    padding: .2rem 2rem;
+    background-color: darkcyan;
+    border: .2rem solid rgba(215, 241, 224, 0.76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
+} 
+
+.btn-delete {
+    padding: .2rem 1.5rem;
+    margin-bottom: 1rem;
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.btn-submit {
+    padding: .2rem .8rem;
+    margin-right: .6rem;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.btn-clear {
+    padding: .2rem 1.1rem;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
